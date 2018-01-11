@@ -1,4 +1,4 @@
 #!/bin/sh
 
-GIT_WORK_TREE=../production-www/ git checkout -f
+GIT_WORK_TREE=/Users/changyan/Documents/repos/simple-hook-pipeline/deploy/production-www git checkout -f
 echo "@cyan: Pushed to production"
