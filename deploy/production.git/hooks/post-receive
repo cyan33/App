@@ -1,0 +1,4 @@
+#!/bin/sh
+
+GIT_WORK_TREE=../production-www/ git checkout -f
+echo "@cyan: Pushed to production"
